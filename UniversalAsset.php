@@ -13,7 +13,7 @@ class UniversalAsset extends AssetBundle
 
     public $css=[
         'css/animate.css',
-        'css/style.default.css'
+        'css/style.default.css',
         'css/custom.css',
         'css/owl.carousel.css',
         'css/owl.theme.css',
