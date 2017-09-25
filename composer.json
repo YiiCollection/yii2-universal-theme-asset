@@ -1,0 +1,21 @@
+{
+    "name": "hoaaah/yii2-universal-theme-asset",
+    "description": "This ekstensions is library asset bundle for universal-business-e-commerce-template by DevCows of Hugo Theme",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hoaaah",
+            "email": "heru@belajararief.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "dmstr/yii2-adminlte-asset": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hoaaah\\universal\\": ""
+        }
+    }
+}
