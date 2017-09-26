@@ -17,13 +17,9 @@ class UniversalAsset extends AssetBundle
         'css/custom.css',
         'css/owl.carousel.css',
         'css/owl.theme.css',
-        'css/font-awesome.min.css',
-        'css/bootstrap.min.css'
     ];
 
     public $js=[
-        'js/jquery-1.11.0.min.js',
-        'js/bootstrap.min.js',
         'js/jquery.cookie.js',
         'js/waypoints.min.js',
         'js/front.js',
@@ -31,6 +27,7 @@ class UniversalAsset extends AssetBundle
     ];
 
     public $depends = [
+        'yii\bootstrap\BootstrapPluginAsset',
     ];
 
     public function init() {
